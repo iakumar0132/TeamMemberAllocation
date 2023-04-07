@@ -16,7 +16,7 @@ function App() {
 
   const [employees, setEmployees] = useState(JSON.parse(localStorage.getItem('employeeList')) || [{
     id: 1,
-    fullName: "Employee1",
+    fullName: "Anshu",
     designation: "Full Stack Developer",
     gender: "male",
     teamName: "TeamA"
